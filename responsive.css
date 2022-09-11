@@ -1,0 +1,94 @@
+@media(max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-items{
+        display: none;
+    }
+    .buttons{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .left h2{
+        text-align: center;
+    }
+    .left p{
+        text-align: center;
+    }
+    .right img{
+        width: 100%;
+        height: auto;
+    }
+    .companyLogos{
+        margin-top: 220px;
+    }
+    .all-desti-cards{
+        flex-direction: column;
+    }
+    .desti-cards{
+        margin-bottom: 30px;
+    }
+.main-us-cards{
+    flex-direction: column;
+}
+.footerOne h6{
+    width: 46%;
+}
+.footerTwo{
+    padding: 0;
+}
+
+}
+
+
+
+
+/* mobile responsive css here  */
+
+@media(max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+    .left h2{
+        padding: 0 1rem;
+        font-size: 5rem;
+    }
+    .left p{
+        margin-bottom: 1rem;
+        padding: 0 .6rem;
+    }
+    .right img{
+        margin-top: 1rem;
+    }
+    .scrollimage img{
+        display: none;
+    }
+    .Container{
+        flex-direction: column;
+        gap: 2.4rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider-header h3{     
+        font-size: 3rem;
+        padding: 3rem 1rem; 
+    }
+    .footer{
+        height: auto;
+    }
+    .footerOne h6{
+        width: 66%;
+        font-size: 2rem;
+    }
+    .footerTwo{
+        flex-direction: column;
+        text-align: center;
+    }
+    .gap{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+}

@@ -10,9 +10,9 @@ body {
     background-color: #15172b;
     border-radius: 10px;
     box-sizing: border-box;
-    height: 500px;
+    height: auto;
     padding: 20px;
-    width: 320px;
+    width: 350px;
   }
   
   .title {
@@ -128,7 +128,8 @@ body {
     background-color: #06b;
     padding: 16px 12px;
     display: block;
-    width: 90%;
+    width: 100%;
+    box-sizing: border-box;
     margin: auto;
     border-radius: 12px;
     font-family: sans-serif;
