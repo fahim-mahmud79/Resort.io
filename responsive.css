@@ -2,6 +2,11 @@
     body{
         overflow-x: hidden;
     }
+    .bi{
+        display: block; 
+        margin-right: 12px; 
+        cursor: pointer;
+    }
     .nav-items{
         display: none;
     }
@@ -30,16 +35,15 @@
     .desti-cards{
         margin-bottom: 30px;
     }
-.main-us-cards{
+    .main-us-cards{
     flex-direction: column;
-}
-.footerOne h6{
+    }
+    .footerOne h6{
     width: 46%;
-}
-.footerTwo{
+    }
+    .footerTwo{
     padding: 0;
-}
-
+    }
 }
 
 
