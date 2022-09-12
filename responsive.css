@@ -35,6 +35,18 @@
     .desti-cards{
         margin-bottom: 30px;
     }
+    .h4andstars{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .h4andstars .icons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.8rem;
+        margin-bottom: 0.6rem;
+    }
+
     .main-us-cards{
     flex-direction: column;
     }

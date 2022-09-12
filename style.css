@@ -243,17 +243,17 @@ span{
     color: #FFBA0A;
     margin-top: 2.2rem;
     margin-right: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.4rem;
 }
 
 /* why us css starts  */
 
 .header-US{
-        background-image: url(img/bgstyle.svg);
-        background-size: auto;
-        background-position: center;
-        object-fit: contain;
-        background-repeat: no-repeat;
+    background-image: url(img/bgstyle.svg);
+    background-size: auto;
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
 }
 
 .header-US h3{
@@ -325,11 +325,6 @@ span{
     font-weight: 600;
     font-size: 3rem;
 }
-
-
-
-
-
 .carousel-indicators{
     position: relative;
 }
@@ -342,18 +337,13 @@ span{
     border-radius: 100%;
 }
 .items{
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
 }
-.stars i{
-    font-size: 1.4rem;
-    color: red;
-    padding: 0.3rem;
+.items q{
+    margin-top: 2rem;
+    font-size: 0.8rem;
 }
-.stars{
-    margin-bottom: 1.3rem;
-}
-
 .carousel-indicators [data-bs-target]{
     width: 20px;
     height: 20px;
@@ -363,13 +353,13 @@ span{
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: red;
-    display: inline-block;
+    display: none;
+    /* background-color: red;
     width: 2rem;
     height: 2rem;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
 }
 
 /* footer css here  */
