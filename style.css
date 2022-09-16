@@ -12,9 +12,7 @@
 }
 body{
     font-size: 62.5%;
-    /* background-image: url(img/bgstyle.svg);
-    background-repeat: no-repeat;
-    background-position: top left; */
+    position: relative;
 }
 .header{
     display: flex;
@@ -45,7 +43,13 @@ body{
 .buton-extra{
     color: #62AC43;
 }
-
+.logobackbg img{
+    position: absolute;
+    top: -150px;
+    left: -70px;
+    transform: rotate(70deg);
+   
+}
 /* hero css starts  */
 .hero{
     display: flex;
@@ -72,8 +76,10 @@ body{
     background-color: #62AC43;
     color: white;
     text-decoration: none;
-    margin-right: 1rem;
     font-size: 0.8rem;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+    border-radius: 4px;
+    
 }
 
 .btn-2{
@@ -81,9 +87,15 @@ body{
     background-color: black;
     color: white;
     text-decoration: none;
-    margin-right: 1rem;
+    border-radius: 4px;
     font-size: 0.8rem;
+    clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0 100%);
+}
 
+.btn-1:hover, .btn-2:hover{
+    background-color: #fff;
+    transition: .5s;
+    border: 1px solid #62AC43;
 }
 
 .right{
@@ -124,6 +136,16 @@ span{
     background-position: center;
     object-fit: contain;
     background-repeat: no-repeat;
+    position: relative;
+}
+.galleryHeader::after{
+    content: "";
+    width: 140px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 62%;
+    right: 34%;
 }
 .galleryHeader h3{
     padding: 6rem 0;
@@ -192,6 +214,17 @@ span{
     background-position: center;
     object-fit: contain;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.desti-header::after{
+    content: "";
+    width: 230px;
+    height: 3px;
+    background-color: #62AC43;
+    position: absolute;
+    top: 62%;
+    right: 32%;
 }
 
 .desti-header h3{
@@ -254,6 +287,16 @@ span{
     background-position: center;
     object-fit: contain;
     background-repeat: no-repeat;
+    position: relative;
+}
+.header-US::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 64%;
+    right: 50%;
 }
 
 .header-US h3{
@@ -319,6 +362,16 @@ span{
     background-position: center;
     object-fit: contain;
     background-repeat: no-repeat;
+    position: relative;
+}
+.slider-header::after{
+    content: "";
+    width: 12rem;
+    height: 3px;
+    background-color: #62AC43;
+    position: absolute;
+    top: 62%;
+    right: 38%;
 }
 .slider-header h3{
     padding: 6rem 0;
